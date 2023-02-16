@@ -1,0 +1,5 @@
+#!/bin/bash
+c_file=$CFILE
+base_name="${c_file%.*}"
+gcc -S -masm=intel $c_file -o "${base_name}.s"
+
