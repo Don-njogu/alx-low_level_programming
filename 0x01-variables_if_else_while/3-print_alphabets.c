@@ -6,20 +6,15 @@
  */
 int main(void)
 {
-char letter = 'a';
-// Print lowercase letters
-while (letter <= 'z')
+char c;
+for (c = 'a'; c <= 'z'; c++)
 {
-putchar(letter);
-letter++;
+putchar(c);
 }
-letter = 'A';
-// Print uppercase letters
-while (letter <= 'Z')
+for (c = 'A'; c <= 'Z'; c++)
 {
-putchar(letter);
-letter++;
+putchar(c);
 }
 putchar('\n');
-return 0;
+return (0);
 }
