@@ -6,19 +6,13 @@
  */
 int main(void)
 {
-int i, j;
-for (i = 0; i < 10; i++)
-{
-for (j = i; j < 10; j++)
+int i;
+for (i = 0; i < 9; i++)
 {
 putchar(i + '0');
-putchar(j + '0');
-if (i != 9 || j != 9)
-{
 putchar(',');
 putchar(' ');
 }
-}
-}
+putchar('9');
 return (0);
 }
