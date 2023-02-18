@@ -4,10 +4,10 @@
  *
  * Return: 0 on success
  */
-int main()
+int main(void)
 {
-char num = '0';
-for (int i=0; i < 10; i++)
+int i;
+for (i = 0; i < 10; i++)
 {
 printf("%d\n", i);
 }
