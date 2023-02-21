@@ -1,7 +1,20 @@
 #include <stdio.h>
 
+void print_alphabet(void);
+
 /**
- * print_alphabet - prints the lowercase alphabet, followed by a newline
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
+int main(void)
+{
+    print_alphabet();
+    return (0);
+}
+
+/**
+ * print_alphabet - Prints the lowercase alphabet
  */
 void print_alphabet(void)
 {
@@ -14,16 +27,5 @@ void print_alphabet(void)
     }
 
     putchar('\n');
-}
-
-/**
- * main - calls the print_alphabet function
- *
- * Return: Always 0 (Success)
- */
-int main(void)
-{
-    print_alphabet();
-    return (0);
 }
 
