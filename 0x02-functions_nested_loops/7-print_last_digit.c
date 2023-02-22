@@ -6,9 +6,11 @@
  *
  * Return: the value of the last digit
  */
-int print_last_digit(int num)
+int print_last_digit(int i)
 {
-int last_digit = num % 10;
-printf("The last digit of %d is %d\n", num, last_digit);
-return (last_digit);
+int k;
+k = i % 10;
+if (i < 0)
+k = -k;
+return(k);
 }
