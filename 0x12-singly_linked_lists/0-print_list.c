@@ -15,7 +15,7 @@ while (current != NULL)
 {
 	if (current->str != NULL)
 	{
-		printf("[%d] %s\n,current->len, current->str);
+		printf("[%d] %s\n",current->len, current->str);
 	}
 	else
 	{
